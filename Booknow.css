@@ -1,0 +1,243 @@
+    *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+width: 100%; 
+height: 230vh;
+min-height: 100vh;
+background-image: url(nw.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+.booking {
+width: 90%;
+height: 210vh;
+background: transparent;
+position: relative;
+top: 40px;
+left: 5%;
+border-radius: 10px;
+padding: 5px;
+border: 2px solid #71b7e6;
+}
+
+.booking h1{
+    font-size: 25px;
+    font-style: Times new Roman;
+    color: red;
+    text-align: center;
+}
+
+.business{
+    position: relative;
+}
+
+.business img{
+width: 90%;
+height: 50%;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+}
+
+.business-text{
+position: absolute;
+top: 70%;
+left: 10%;
+color: white;
+font-size: 90%;
+padding: 10px;
+}
+
+.bttonb {
+position: absolute;
+width: 35px;
+height: 35px;
+background: transparent;
+border: 5px solid white;
+margin-left: -20%;
+margin-top: 35%;
+font-size: 18px;
+border-radius: 100px;
+}
+
+.bttonb a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+
+.private{
+    position: relative;
+}
+
+.private img{
+width: 90%;
+height: 60%;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+}
+
+
+.bttonpm{
+position: absolute;
+width: 35px;
+height: 35px;
+background: transparent;
+border: 5px solid white;
+margin-left: 90%;
+margin-top: 5%;
+font-size: 18px;
+border-radius: 100px;
+}
+.bttonp {
+position: absolute;
+width: 35px;
+height: 35px;
+background: transparent;
+border: 5px solid white;
+margin-left: -20%;
+margin-top: 60%;
+font-size: 18px;
+border-radius: 100px;
+}
+
+.bttonp a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+
+.permit{
+    position: relative;
+}
+
+.permit img{
+width: 90%;
+height: 80%;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+
+}
+
+
+.permit-text{
+position: absolute;
+top: 30%;
+left: 20%;
+color: white;
+font-size: 15px;
+padding: 10px;
+}
+
+.bttonpm{
+position: absolute;
+width: 35px;
+height: 35px;
+background: transparent;
+border: 5px solid white;
+margin-left: 90%;
+margin-top: 5%;
+font-size: 18px;
+border-radius: 100px;
+}
+
+.bttonpm a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+
+.meet{
+    position: relative;
+}
+
+.meet img{
+width: 90%;
+height: 80%;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+}
+
+.meet-text{
+position: absolute;
+top: 70%;
+left: 10%;
+color: white;
+font-size: 90%;
+padding: 10px;
+}
+
+.bttonmg{
+position: absolute;
+width: 35px;
+height: 35px;
+background: transparent;
+border: 5px solid white;
+margin-left: 190px;
+margin-top: -50px;
+font-size: 18px;
+border-radius: 100px;
+}
+
+.bttonmg a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+
+.appearance{
+    position: relative;
+}
+
+.appearance img{
+width: 90%;
+height: 80%;
+margin-top: 20px;
+margin-left: 5%;
+border-radius: 10px;
+}
+
+.appearance-text{
+position: absolute;
+top: 30%;
+left: 20%;
+color: white;
+font-size: 15px;
+padding: 10px;
+text-align: center;
+font-weight: bold;
+}
+
+.bttonpp{
+position: absolute;
+width: 35px;
+height: 35px;
+background: transparent;
+border: 5px solid white;
+margin-left: 47%;
+margin-top: -40%;
+font-size: 18px;
+border-radius: 100px;
+}
+
+.bttonpp a {
+text-decoration: none;
+color: white;
+transition: .4s ease;
+}
+}
+
